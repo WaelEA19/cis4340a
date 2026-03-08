@@ -4,7 +4,7 @@ public class R05_OBJ01_J {
         String a = new String("hello");
         String b = new String("hello");
 
-        if (a == b) {
+        if (a.equals(b)) {
             System.out.println("Equal");
         }
     }
