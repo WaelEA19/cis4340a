@@ -1,8 +1,8 @@
 public class R08_EXC00_J {
 
-    public static void checkValue(int x) throws Exception {
+    public static void checkValue(int x) {
         if (x < 0) {
-            throw new Exception("Invalid value");
+            throw new IllegalArgumentException("Invalid value");
         }
     }
 }
